@@ -67,6 +67,7 @@
 
                             <div class="col-md-6">
                                 <select id="role" type="text" class="form-control @error('role') is-invalid @enderror" name="role" data-container-css-class="border-teal" data-dropdown-css-class="border-teal" required>
+                                    <!-- <option value="1">admin</option> -->
                                     <option value="2">Penyewa</option>
                                     <option value="3">Pengguna</option>
                                 </select>
